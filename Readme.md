@@ -4,6 +4,9 @@
 
 This project is a simple web application that generates random anime quotes and displays the anime character's image using the Animechan and Jikan APIs.
 
+**Note**: The Animechan API, which is commonly used for this purpose, is temporarily down. Therefore, this project uses a combination of a local quotes database and the AniList API.
+
+
 ## Features
 
 - Generates random anime quotes
@@ -35,6 +38,8 @@ This project is a simple web application that generates random anime quotes and 
 - `index.html`: The main HTML file containing the structure of the web page.
 - `styles.css`: The CSS file for styling the web page.
 - `script.js`: The JavaScript file containing the logic for fetching and displaying quotes and images.
+- `image.jpg`: the image when the site first loads 
+
 
 ## Usage
 
