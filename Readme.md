@@ -2,7 +2,7 @@
 
 This project is a web application that generates random anime quotes and displays the anime character's image using a combination of the Animechan API and a local Node.js package, `animequotes`. The application is hosted on Render.
 
-**Live Demo**: [Anime Quote Generator on Render](https://your-render-app-url)
+**Live Demo**: [Anime Quote Generator on Render](https://anime-quote-generator-6f5z.onrender.com/)
 
 ## Features
 
@@ -41,26 +41,7 @@ This project is a web application that generates random anime quotes and display
     ```bash
     node server.js
     ```
-6. The application will be running at `http://localhost:4000`.
-
-## File Structure
-
-- `dist/`
-  - `index.html`: The main HTML file containing the structure of the web page.
-  - `styles.css`: The CSS file for styling the web page.
-  - `script.js`: The JavaScript file containing the logic for fetching and displaying quotes and images.
-  - `image.jpeg`: The image displayed when the site first loads.
-- `server.js`: The Node.js server file that handles API requests and serves the frontend.
-- `.env`: Environment variables file specifying the port.
-- `package.json`: Contains metadata about the project and its dependencies.
-- `package-lock.json`: Automatically generated file that locks the versions of the dependencies.
-
-## Usage
-
-1. Visit the deployed site on Render.
-2. Click the "Generate a Quote" button to fetch a random anime quote.
-3. The quote, character name, and anime title will be displayed, along with an image of the anime.
-
+    
 ## APIs Used
 
 - [Animechan API](https://animechan.xyz): Provides random anime quotes. The application falls back to the `animequotes` package if the API is unavailable.
