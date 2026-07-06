@@ -15,7 +15,7 @@ app.get('/api/quotes/random', async (req, res) => {
     // Try fetching from AnimeChan API
     const animeChanApiUrl = 'https://api.animechan.io/v1/quotes/random';
     let animeChanResponse = await axios.get(animeChanApiUrl);
-    let animeObj = animeChanResponse.data.data;
+    let animeObj = animeChanResponse.data;
 
     const animeName = encodeURIComponent(animeObj.anime.name);
 
