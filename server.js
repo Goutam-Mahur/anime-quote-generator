@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'dist')));
 app.get('/api/quotes/random', async (req, res) => {
   try {
     // Try fetching from AnimeChan API
-    const animeChanApiUrl = 'https://animechan.io/api/v1/quotes/random';
+    const animeChanApiUrl = 'https://api.animechan.io/v1/quotes/random';
     let animeChanResponse = await axios.get(animeChanApiUrl);
     let animeObj = animeChanResponse.data.data;
 
